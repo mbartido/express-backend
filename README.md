@@ -10,7 +10,7 @@ To run this you'll need to have mongoDB set up on your environment. Install the 
 2. mongod
     * If this doesn't work and your're running Windows, look up where your mongoDB is installed and then copy the location where mongod is located. Put this in your environment variables and then you should be able to run this command.
 3. npm start
-4. You can now run any of these using [Postman](https://www.getpostman.com/) :
+4. You can now run any of these using [Postman](https://www.getpostman.com/):
     * localhost:3000/contact
     A GET gets all the user in the database. A POST adds a new user in the database.
     * localhost:3000/contact/:contactID
